@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Get All Employees record",
+        "description": "",
+        "id": "test-crud-methods-in-sample-employee-rest-api-testing;get-all-employees-record",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 239827286,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "GET all employee service api endpoint",
+            "match": {
+              "location": "EmployeeSteps.i_set_get_all_employee_service_api_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4351860691,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Send a GET HTTP request",
+            "match": {
+              "location": "EmployeeSteps.send_a_get_http_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43040365,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I receive get valid Response",
+            "match": {
+              "location": "EmployeeSteps.i_receive_get_valid_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "create employee",
+        "description": "",
+        "id": "test-crud-methods-in-sample-employee-rest-api-testing;create-employee",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76231,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Post employee data",
+            "match": {
+              "location": "EmployeeSteps.post_employee_data()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1947744216,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "send a Post request",
+            "match": {
+              "location": "EmployeeSteps.send_a_Post_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1303891,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "recive the valide data",
+            "match": {
+              "location": "EmployeeSteps.recive_the_vail_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 213902,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I validate the user",
+            "match": {
+              "location": "EmployeeSteps.i_validate_the_user()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test CRUD methods in Sample Employee REST API testing",
+    "description": "",
+    "id": "test-crud-methods-in-sample-employee-rest-api-testing",
+    "keyword": "Feature",
+    "uri": "Employee.feature"
+  }
+]
